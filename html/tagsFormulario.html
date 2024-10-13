@@ -1,0 +1,44 @@
+<!-- 
+<input>
+Essa é a principal tag dentro de um formulário.
+Ela recebe os dados digitados pelo usuário e conta com alguns atributos:
+
+type – 
+Demonstra o tipo de campo e os mais comuns são:
+text, date, file, button, hidden, password e submit.
+
+value – 
+Define o valor do campo, ou seja, o dado que o campo recebe.
+
+name –
+É uma identificação do campo, muitas vezes utilizada para o
+reconhecimento dos campos na página que recebe o formulário.
+id – 
+É a identificação padrão para uso e interação de um campo com outras linguagens,
+por exemplo: JavaScript.
+
+<select>
+É uma estrutura que abriga diversos outros campos, a fim de gerar uma seleção.
+As opções presentes dentro de <select> são disponibilizadas pela tag <option>.
+
+<textarea>
+Campo semelhante ao <input>, porém tem uma entrada de texto e o tamanho visual é variável.
+
+<label>
+Define um rótulo ou uma descrição para um campo de formulário.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meu Site</title>
+    </head>
+    <body>
+        <h3>Primeiro exemplo de formulario</h1>
+           <form action="paginaderecebimento" method="POST"> 
+            <label>Nome:</label>
+            <input type="text" name="nome_funcionario" required/>
+            <br/>
+            <input type="submit" value="Cadastro"/>
+           </form> 
+    </body>
+</html>

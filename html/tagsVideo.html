@@ -1,0 +1,37 @@
+<!--
+<video>
+Essa tag, como propriamente dita, é responsável pela inserção de um vídeo ao conteúdo,
+porém ela necessita de alguns parâmetros para funcionar corretamente,
+como uma tag interna denominada <source>, que é responsável por anexar os conteúdos multimídia.
+Essa tag tem atributos como o local onde o vídeo está localizado (atributo src) e 
+o tipo de vídeo (atributo type). Alguns outros atributos da tag <video> são:
+
+controls
+
+Exibição de botões de controle no vídeo, como Play e Pause.
+
+autoplay
+
+Vídeo inicia automaticamente com a página.
+
+loop
+
+Vídeo fica em repetição.
+
+muted
+
+Vídeo fica sem áudio.
+
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Videos HTML5</title>
+    </head>
+    <body>
+        <video width="600" height="350" controls autoplay>
+            <source src="video.mp4" type="video/mp4">
+            <source src="video.ogg" type="video/ogg">
+        </video>
+    </body>
+</html>

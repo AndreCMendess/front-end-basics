@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>desafio formulario</title>
+    </head>
+    <body>
+        <form action="siteenviado" type="POST">
+            <h1>Informe seu endereço</h1>
+            <label><strong>Rua: </strong> </label>
+            <input type="text" name="rua">
+            <label><strong>Numero:</strong> </label>
+            <input type="text" name="telefone">
+            <br/>
+            <br/>
+            <label><strong>Cidade: </strong></label>
+            <input type="text" name="cidade">
+            <label><strong>Estado: </strong></label>
+            <select name="estados">
+                <option value="minas gerais">MG</option>
+                <option value="sao paulo">SP</option>
+                <option value="brasilia">BR</option>                
+            </select>
+            <br/>
+            <br/>
+            <label><strong>Tipo: </strong></label>
+            <input type="radio" id="re" name="tipoMoradia" value="res">
+            <label for="re"><strong>Residencial</strong></label>
+            <input type="radio" id="co" name="tipoMoradia" value="cor">
+            <label for="co"><strong>Comercial</strong></label>
+            <br/>
+            <br/>
+            <input type="submit" name="cadastrar" value="Cadastrar">
+
+        </form>
+    </body>
+</html>
