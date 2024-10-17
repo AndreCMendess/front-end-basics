@@ -79,6 +79,8 @@ body{
     background-color: white; 
     color: #00628c;
     border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
 }
 
 .s1 , .s2, .s3{
