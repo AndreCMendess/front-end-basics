@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin:0; 
+}
+
+body{
+    margin: 0;
+    padding:0;
+    display: flex;
+    min-height: 100vh;
+}
+
+.cabecalho{
+    display: flex;
+    background-color:#00628c;
+    height:150px;
+    width: 100%;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.cabecalho a{
+    padding: 30px;  
+    padding-top:110px;
+    color: white;
+ 
+}
+.cabecalho img{
+    margin-left: 20px;
+}
+
+.anuncios{
+    background-color: #00628c;
+    height: 300px;
+    width: 100%;
+}
+
+.anuncios img{
+
+ 
+    max-width: 100%;
+    height: auto;
+}
+
+.servicos{
+   width:100%;
+   background-color: #00628c;    
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+   text-align:center;
+   font-family: 'Lucida Sans';
+   color: white;
+}
+
+.servicos button{
+  
+    float:right;
+    margin:20px;
+    margin-top: auto;
+  
+    width:200px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+    background-color: white; 
+    color: #00628c;
+    border-radius: 10px;
+}
+
+.s1 , .s2, .s3{
+   
+  border-radius: 8px;
+  border:2px solid  white;
+  background-color: #00628c;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 30px;
+  width: 95%;
+  height: 300px;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-size:15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+.s1 img,.s2 img , .s3 img{
+    max-width:25%; 
+    max-height: 100%;
+    margin:10px;
+}
+
+.footer{
+    background-color:  #00628c;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+
+}
+
+
+.contato, .local{
+
+    margin: 30px;
+    color: white;
+    width: 30%;
+}
+
+.icons{
+
+    gap: 10;
+    background-color: #00628c;
+    float: right;
+}
+
+.icons img{
+    margin: 10px;
+}
+
+   
+   
+
+
+
+
+

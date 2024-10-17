@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+}
+
+.slides{
+    width: 100%;
+    text-align: center;
+}
+
+.descricao{
+    border:1px solid #c3c3c3;
+    padding: 30px;
+    float:left;
+    font-style: italic;
+}
+
+.legenda{
+    font-weight:bold;
+    font-style: italic;
+}
+
+.navegacao button{
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    padding:30px;
+    margin: 15px;
+}
+
+#btAnterior{
+    float:left;
+}
+
+#btProximo{
+    float:right;
+}
+

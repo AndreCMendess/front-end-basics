@@ -1,0 +1,40 @@
+h3{
+    text-align: center;
+}
+
+table{
+    border: 1px solid gray;
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+td, th{
+    border: 1px solid gray;
+    padding: 8px; 
+}
+
+.destaque{
+    background-color: black;
+    color: white;
+}
+
+body{
+    font-family: serif;
+}
+
+.valor{
+    color:white;
+    text-align: right;
+}
+
+.valor.credito{
+    color:rgb(26, 187, 26);
+}
+
+.valor.debito{
+    color:red;
+}
+.debito{
+    color: red;
+}

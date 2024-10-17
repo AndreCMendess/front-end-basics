@@ -1,0 +1,14 @@
+.conteudo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: aquamarine;
+    width: 50%;
+    display: block;
+    
+}
+
+.interno{
+    margin-top: 5px;
+    padding-top: 5px; 
+    background-color: yellow;
+}
