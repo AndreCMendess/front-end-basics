@@ -201,6 +201,69 @@ body{
     padding: 5px;
 }
 
+.snc{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #00628c;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+   
+}
+
+.snc div{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    width: 90%;
+    margin: 20px;
+    justify-content: space-around;
+    flex-direction: column;  
+    text-align: center;
+    background-color: #00628c;
+
+}
+
+.snc img{
+    margin: 20px;
+}
+
+.formulario{
+    display: flex;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: #00628c;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario div{
+    background-color: #00628c;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    width: 50%;
+}
+.formulario button{
+    padding:20px;
+}
+
+.formulario h2{
+    margin-top: 20px;
+}
+.btn{
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
    
 
 
