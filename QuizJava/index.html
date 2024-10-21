@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quiz para linguagem Java</title>
+        <meta name="description" content="Estudando html e css enquanto relembro estudos de Java">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>  
+        <header>
+            <h1>Quiz Interativo de Java</h1>
+            <p>Teste seus conhecimentos em Java e veja qual pontuação você consegue fazer!</p>
+
+        </header>
+        <main>
+            <!--Introdução-->
+            <section>
+                <h2>Sobre esse quiz</h2>
+                <p><strong> Este quiz</strong> foi criado para ajudá-lo a reforçar seus conhecimentos em Java de maneira interativa.</p>
+                <p> Com perguntas de múltipla escolha sobre conceitos <em>fundamentais da linguagem</em>,
+                    você poderá testar sua compreensão e aprender enquanto se diverte.<br> Boa sorte e que a lógica esteja com você!</p>
+            </section>
+            <!--Pergunta 1:Multipla Escolha-->
+            <section>
+                <h2>Pergunta 1: Qual das opções abaixo é usada para declarar uma variável em Java?</h2>
+                <form>
+                     <input type="radio" id="option1" name="question1" value="a">
+                     <label for="option">a) 'let'</label><br>
+                     <input type="radio" id="option2" name="question1" value="b">
+                     <label for="option2">b) 'var'</label><br>
+                     <input type="radio" id="option3" name="question1" value="c">
+                     <label for="option3">c) 'int'</label><br>
+                     <input type="radio" id="option4" name="question1" value="d">
+                     <label for="option4">d) 'define'</label>    
+                </form>
+            </section>
+            <!--Pergunta 2:texto-->
+            <section>
+                <h2>Pergunta2: Em Java, qual é o nome do método que é executado automaticamente quando um programa é iniciado?</h2>
+               <form>
+                <input type="text" id="p2" name="question2" placeholder="Digite sua resposta">      
+               </form>
+            </section>
+            <!--Pergunta 3:data-->
+            <section>
+                <h2>Pergunta 3: Em que ano o java lançou sua primeira versão?</h2>
+                <form >
+                    <input type="date" id="p4" name="pergunta4">
+                </form>
+            </section>
+            <!--Pergunta 4:Selecão Multipla-->
+            <section>
+                <h2>Pergunta 4: Quais destas são palavras-chave reservadas em Java?</h2>
+                <form>
+                    <input type="checkbox" id="p4option1" name="question4" value="abstract">
+                    <label for="p4option1">a) 'abstract'</label>
+                    <input type="checkbox" id="p4option2" name="question4" value="void">
+                    <label for="p4option2">b) 'void'</label>
+                    <input type="checkbox" id="p4otion3" name="question4" value="public">
+                    <label for="p4option3">c) 'public'</label>
+                    <input type="checkbox" id="p4option4" name="question4" value="include">
+                    <label for="p4option4">d) 'include'</label>
+                </form>
+            </section>
+            <!--Pergunta 5:Upload-->
+            <section>
+                <h2>Pergunta 5: Faça um upload de um arquivo contendo codigo Java</h2>
+                <form >
+                    <input type="file" id="p5" name="question5">
+                </form>
+            </section>
+            <!--Pergunta 6: menu suspenso-->
+            <section>
+                <h2>Pergunta 6: >Qual é o tipo de dado usado para armazenar um número decimal em Java?</h2>
+                <form>
+                    <select name="question6" id="p6">
+                        <option value="int">a) 'int'</option>
+                        <option value="char">b) 'char'</option>
+                        <option value="boolean">c) 'boolean'</option>
+                        <option value="double">d) 'double'</option>
+                    </select>
+                </form>
+            </section>
+            <!--Pergunta 7: imagem-->
+            <section>
+                <h2>Pergunta 7: Qual linguagem de programação é representada pelo logotipo abaixo?</h2>
+                <form>
+                <figure>
+                    <img src="../imagens/java.png" alt="Logotipo de uma linguagem de programação">
+                    <figcaption>Figura 1: Logotipo de uma Linguagem de Programção</figcaption>
+                </figure><br>
+                 <input type="text" id="p7" name="question7" placeholder="Digite sua resposta...">
+                </form>
+            </section>
+            <!--Tabela de pontuação-->
+            <section>
+                <h2>Tabela de pontuação</h2>
+                <table border="1">
+                  <thead>
+                    <tr>
+                       <th>Pontuação</th>
+                       <th>Avaliação</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                        <td>0-2</td>
+                        <td>Não desista! Cada tentativa é uma oportunidade.</td>
+                    </tr>
+                    <tr>
+                        <td>3-4</td>
+                        <td>Você ainda precisa melhorar. Que tal estudar mais a linguagem?</td>
+                    </tr>
+                    <tr>
+                        <td>5-7</td>
+                        <td>Bom! Seu conhecimento da linguagem está satisfatório</td>
+                    </tr>
+                    <tr>
+                        <td>8-10</td>
+                        <td>Perfeito! Você esta muito bem informado sobre a linguagem</td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                    <tr>
+                        <td colspan="2">Boa sorte na proxima!  Estude para melhorar</td>
+                    </tr>
+
+                  </tfoot>
+                </table>
+            </section>
+            <!--Lista de resposta-->
+            <section>
+                <h2>Verifique suas respostas</h2>
+                <details>
+                    <summary>Clique aqui para ver as respostas do quiz!</summary>
+                    <ol>
+                        <li>int</li>
+                        <li>main</li>
+                        <li>23/05/1995</li>
+                        <li>abstract,void,public</li>
+                        <li>arquivo.jar</li>
+                        <li>double</li>
+                        <li>Java</li>
+                    </ol>
+                </details> 
+            </section>
+            <!--Formulario-->
+            <section>
+                <h2>Nos dê o seu feedback</h2>
+                <form>
+                    <fieldset>
+                        <legend>Informações de contato</legend>
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name"><br>               
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email"><br>
+                        <label for="comments">Comentarios:</label><br>
+                        <textarea name="comments" id="comments" rows="4" cols="50"></textarea><br>
+                        <button id="btn" name="botao"><strong>Envie o feedback</strong></button>
+                    </fieldset>        
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p class="pFotter">&copyQuiz de Linguagem Java. Todos os direitos reservados</p>
+            <p class="pFotter">Para saber mais da linguagem <a href="https://docs.oracle.com/en/java/" target="_blank">Clique aqui</a></p>
+        </footer> 
+    </body>
+</html>
