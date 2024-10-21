@@ -6,44 +6,49 @@
     
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    margin:0 auto; 
-    background-color: #00628c;
-}
 
 body{
     margin: 0;
     padding:0;
     display: flex;
-    min-height: 100vh;
+    flex-direction: column;
+    max-height: 100dvh;
 }
 
-.cabecalho{
+header{
     display: flex;
+    flex-direction: row;
+    align-items: auto;
     background-color:#00628c;
-    height:150px;
     width: 100%;
+    height: 10rem;
     font-size: 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
 }
 
-.cabecalho a{
-    padding: 30px;  
-    padding-top:110px;
+header img{
+    max-height: 100%;
+   
+}
+
+header div {
+    display: flex;
+    align-items: end;
+    gap:6rem;
+    color:white;
+    margin-bottom: 1rem;
+}
+
+header div a{
     color: white;
- 
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
 }
-.cabecalho img{
-    margin-left: 20px;
-}
+
 
 .anuncios{
     background-color: #00628c;
+    display: flex;
     height: 300px;
     width: 100%;
 }
@@ -55,34 +60,31 @@ body{
     height: auto;
 }
 
+section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
 .servicos{
-   width:100%;
+
    background-color: #00628c;    
    display: flex;
-   flex-direction: column;
+   flex-direction:column;
    gap: 5px;
    text-align:center;
    font-family: 'Lucida Sans';
    color: white;
 }
 
-.servicos button{
-  
-    float:right;
-    margin:20px;
-    margin-top: auto;
-  
-    width:200px;
-    height: 40px;
-    text-align: center;
-    justify-content: center;
-    align-items: center; 
-    background-color: white; 
-    color: #00628c;
-    border-radius: 10px;
-    box-sizing: border-box;
-    cursor: pointer;
-} 
+.servicos div{
+    display: flex;
+    padding: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+
 
 .s1 , .s2, .s3{
    
@@ -108,42 +110,50 @@ body{
     margin:10px;
 }
 
-.footer{
-    background-color:  #00628c;
+footer{
     display: flex;
-    justify-content: space-around; 
-    align-items: center;
+    flex-direction: row; 
+    align-content:space-around;
+    background-color:  #00628c;
+    gap:2rem;
+    padding: 2rem;
 
 }
 
 
-.contato, .local{
 
-    margin: 30px;
+.icons a {
+    display: flex;  
+    align-items: center; 
+    justify-content: center; 
+}
+
+
+.contato, .local {
     color: white;
-    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .icons{
-
-    gap: 10;
-    background-color: #00628c;
-    float: right;
+    margin-left: 50rem;
+    display: flex;  
+    gap: 1rem;
 }
 
-.icons img{
-    margin: 10px;
+.icons a{
+    display: flex;  
+    justify-content: flex-end;
 }
+
 
    
 .tipoEmprestimo{
-
-    justify-content: space-around;
     display: flex;
+    flex-direction: row;
     align-items: center;
     width: 100%;
-    margin: 20px;
-    margin-left: 30px;
     background-color: #00628c;
     color: white;
    
@@ -167,12 +177,9 @@ body{
 }
 
 .simulacaoPerguntas{
-    background-color: rgb(103, 101, 101);
-}
-
-.simulacaoPerguntas{
     display: flex;
     align-items: center;
+    flex-direction: row;
     width: 100%;
     background-color: #00628c;
     color: white;
@@ -186,23 +193,24 @@ body{
     width: 90%;
     padding:50px;
     margin: 20px;
-    justify-content: space-around;
     flex-direction: column;  
     text-align: center;
     background-color: #00628c;
 
 }
 
-#btn{
+.btn{
     border: none;
     border-radius: 5px;
     cursor: pointer;
     text-align: center;
-    padding: 5px;
+    padding: 1rem;
+   
 }
 
 .snc{
     display: flex;
+    flex-direction: row;
     align-items: center;
     text-align: center;
     background-color: #00628c;
@@ -210,23 +218,22 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 100%;
    
-}
+}   
 
-.snc div{
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+.snc div{  
     display: flex;
-    width: 90%;
     margin: 20px;
-    justify-content: space-around;
     flex-direction: column;  
     text-align: center;
     background-color: #00628c;
-
 }
 
 .snc img{
     margin: 20px;
+    border-radius: 500px;   
+    width: 30rem;
+    height: auto;
+    
 }
 
 .formulario{
@@ -248,23 +255,26 @@ body{
     align-items: center;
     width: 50%;
 }
-.formulario button{
-    padding:20px;
-}
+
 
 .formulario h2{
     margin-top: 20px;
 }
+
 .btn{
     border: none;
     border-radius: 5px;
     cursor: pointer;
     text-align: center;
-    padding: 5px;
-    margin-bottom: 20px;
-}
-
-   
+    justify-content: center;
+    align-items: center; 
+    background-color: white; 
+    color: #00628c;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+    margin-bottom: 1rem;
+} 
 
 
 
