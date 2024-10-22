@@ -45,6 +45,11 @@ header div a{
     font-family: 'Times New Roman', Times, serif;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 
 .anuncios{
     background-color: #00628c;

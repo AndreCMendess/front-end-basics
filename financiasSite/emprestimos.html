@@ -13,77 +13,79 @@
                    <a  href="sejaCliente.html">Seja nosso Cliente</a>
                 </div>
             </header>
-            <section class="tipoEmprestimo">
-                <div>
-                    <h2>Emprestimo Pessoal</h2>
-                    <hr\>
-                    <hr\>
-                    <p>É ideal quando você precisa de dinheiro rápido e sem muitas burocracias. Nesse tipo de empréstimo, você recebe o valor que solicitou e paga de volta em parcelas mensais com juros. Não é necessário oferecer nenhuma garantia, como um bem ou salário, o que torna o processo de aprovação mais simples. Você pode usar o dinheiro para qualquer finalidade, como quitar dívidas, fazer compras ou cobrir emergências.</p>
-                </div>
-                <div>
-                    <h2>Emprestimo Consignado</h2>
-                    <hr\>
-                    <hr\>
-                    <p>Essa opção é vantajosa se você é aposentado, pensionista do INSS, servidor público ou trabalha em uma empresa conveniada. Nesse caso, as parcelas do empréstimo são descontadas diretamente do seu salário ou benefício. Como o risco para o banco é menor, as taxas de juros costumam ser mais baixas em comparação com o empréstimo pessoal, tornando-o uma escolha mais econômica para quem pode utilizá-lo.</p>
-                </div>
-            </section>
-            <section class="simulacaoPerguntas">
-                <div class="simulacao">
-                    <form action="siteEnviado" type="POST">
-                        <h2>Simule seu Emprestimo</h2>
-                        <br/>
-                        <br/>
-                        <label for=""><strong>  Tipo Empestimo: </strong></label>
-                        <input type="radio" id="pe" name="tipo" value="pes">
-                        <label for="pe">Pessoal</label>
-                        <input type="radio" id="co" name="tipo" value="con">
-                        <label for="co">Consignado</label>
-                        <br/>
-                        <br/>
-                        <label for="v"><strong>Valor: </strong></label>
-                        <select name="valors" id="v">
-                        <option value="2000">R$2000</option>
-                        <option value="4000">R$4000</option>
-                        <option value="6000">R$6000</option>
-                        <option value="8000">R$8000</option>
-                        <option value="10000">R$10000</option>
-                        </select>
-                        <br/>
-                        <br/>
-                        <label for="v"><strong>Qnt. Parcelas:</strong> </label>
-                        <select name="parcelas" id="v">
-                            <option value="2">2x</option>
-                            <option value="2">4x</option>
-                            <option value="2">6x</option>
-                            <option value="2">8x</option>
-                            <option value="2">10x</option>
-                        </select>
-                        <br/>
-                        <br/>
-                        <label for="vTotal"><strong>Valor Total:</strong> </label>
-                        <input type="text" value="000,000"  readonly>
-                        <br/>
-                        <br/>
-                        <input type="button" name="Simular" id="btn" value="Simular Valor">
-                    </form>
-                </div>
-                <section class="Perguntas">
+            <main>
+                <section class="tipoEmprestimo">
                     <div>
-                        <h2>Perguntas Frequentes</h2>
-                        <br/>
-                       <strong> 1. Quais são as taxas de juros de um empréstimo pessoal?</strong>
-                       <p>Resposta: As taxas de juros de um empréstimo pessoal podem variar dependendo da instituição financeira e do perfil do cliente. Geralmente, são mais altas do que as taxas do empréstimo consignado, podendo girar em torno de 2% a 10% ao mês.</p>
-                        <br/>
-                       <strong> 2. Como funciona o pagamento do empréstimo consignado?</strong>
-                       <p>Resposta: No empréstimo consignado, as parcelas são descontadas diretamente da folha de pagamento ou benefício do solicitante. Isso garante uma maior segurança para o banco, resultando em taxas de juros mais baixas. O valor total a ser pago inclui o montante emprestado mais os juros, que costumam ser entre 1% a 3% ao mês.</p>
-                       <br/>
-                    <strong>3. O que acontece se eu não conseguir pagar as parcelas do empréstimo?</strong>
-                   <p>Resposta: Se você não conseguir pagar as parcelas do empréstimo, isso pode resultar em cobrança de juros por atraso e inclusão do seu nome em órgãos de proteção ao crédito. É importante manter uma comunicação com a instituição financeira para buscar alternativas, como renegociação da dívida.</p>
-                    <br/>
+                        <h2>Emprestimo Pessoal</h2>
+                        <hr\>
+                        <hr\>
+                        <p>É ideal quando você precisa de dinheiro rápido e sem muitas burocracias. Nesse tipo de empréstimo, você recebe o valor que solicitou e paga de volta em parcelas mensais com juros. Não é necessário oferecer nenhuma garantia, como um bem ou salário, o que torna o processo de aprovação mais simples. Você pode usar o dinheiro para qualquer finalidade, como quitar dívidas, fazer compras ou cobrir emergências.</p>
+                    </div>
+                    <div>
+                        <h2>Emprestimo Consignado</h2>
+                        <hr\>
+                        <hr\>
+                        <p>Essa opção é vantajosa se você é aposentado, pensionista do INSS, servidor público ou trabalha em uma empresa conveniada. Nesse caso, as parcelas do empréstimo são descontadas diretamente do seu salário ou benefício. Como o risco para o banco é menor, as taxas de juros costumam ser mais baixas em comparação com o empréstimo pessoal, tornando-o uma escolha mais econômica para quem pode utilizá-lo.</p>
                     </div>
                 </section>
-              
-            </section>
+                <section class="simulacaoPerguntas">
+                    <div class="simulacao">
+                        <form action="siteEnviado" type="POST">
+                            <h2>Simule seu Emprestimo</h2>
+                            <br/>
+                            <br/>
+                            <label for=""><strong>  Tipo Empestimo: </strong></label>
+                            <input type="radio" id="pe" name="tipo" value="pes">
+                            <label for="pe">Pessoal</label>
+                            <input type="radio" id="co" name="tipo" value="con">
+                            <label for="co">Consignado</label>
+                            <br/>
+                            <br/>
+                            <label for="v"><strong>Valor: </strong></label>
+                            <select name="valors" id="v">
+                            <option value="2000">R$2000</option>
+                            <option value="4000">R$4000</option>
+                            <option value="6000">R$6000</option>
+                            <option value="8000">R$8000</option>
+                            <option value="10000">R$10000</option>
+                            </select>
+                            <br/>
+                            <br/>
+                            <label for="v"><strong>Qnt. Parcelas:</strong> </label>
+                            <select name="parcelas" id="v">
+                                <option value="2">2x</option>
+                                <option value="2">4x</option>
+                                <option value="2">6x</option>
+                                <option value="2">8x</option>
+                                <option value="2">10x</option>
+                            </select>
+                            <br/>
+                            <br/>
+                            <label for="vTotal"><strong>Valor Total:</strong> </label>
+                            <input type="text" value="000,000"  readonly>
+                            <br/>
+                            <br/>
+                            <input type="button" name="Simular" id="btn" value="Simular Valor">
+                        </form>
+                    </div>
+                    <section class="Perguntas">
+                        <div>
+                            <h2>Perguntas Frequentes</h2>
+                            <br/>
+                           <strong> 1. Quais são as taxas de juros de um empréstimo pessoal?</strong>
+                           <p>Resposta: As taxas de juros de um empréstimo pessoal podem variar dependendo da instituição financeira e do perfil do cliente. Geralmente, são mais altas do que as taxas do empréstimo consignado, podendo girar em torno de 2% a 10% ao mês.</p>
+                            <br/>
+                           <strong> 2. Como funciona o pagamento do empréstimo consignado?</strong>
+                           <p>Resposta: No empréstimo consignado, as parcelas são descontadas diretamente da folha de pagamento ou benefício do solicitante. Isso garante uma maior segurança para o banco, resultando em taxas de juros mais baixas. O valor total a ser pago inclui o montante emprestado mais os juros, que costumam ser entre 1% a 3% ao mês.</p>
+                           <br/>
+                        <strong>3. O que acontece se eu não conseguir pagar as parcelas do empréstimo?</strong>
+                       <p>Resposta: Se você não conseguir pagar as parcelas do empréstimo, isso pode resultar em cobrança de juros por atraso e inclusão do seu nome em órgãos de proteção ao crédito. É importante manter uma comunicação com a instituição financeira para buscar alternativas, como renegociação da dívida.</p>
+                        <br/>
+                        </div>
+                    </section>
+                  
+                </section>
+            </main>
             <footer>   
                     <div class="local">
                         <h3>Localização</h3>
