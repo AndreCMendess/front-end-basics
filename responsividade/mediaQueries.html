@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>Teste Viewport</title> 
+        <meta name="viewport" content="witdth=device-width, initial-scale=1.0"> 
+        <style>
+
+                /*
+                Se a a largura minima da tela estar em 600 pixel , a cor do fundo sera mudada
+                */
+                @media screen and (min-width:600px){ 
+                body{ 
+                background-color: #DAF7A6; 
+                } 
+                 } 
+                /*
+                Se a largura minima ser 1000px a cor da escrita em negrito no parafrago sera azul, o tipo de fonte sera mudado e o tamanho da fonte sera aumentado
+                */
+                @media screen and (min-width:1000px){ 
+                p b{  
+                color: #0D38A1 ;    
+                font-family: Arial, Helvetica, sans-serif; 
+                font-size: 2em 
+                 } 
+                }
+        </style> 
+    </head> 
+    <body> 
+          <p><b>Abra esta página em um navegador modo desktop e depois em modo mobile</b></p> 
+          <img src="imagem-320x213.jpg" alt="teste"/> 
+          <p> 
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.  
+          </p> 
+    </body> 
+</html> 
+              

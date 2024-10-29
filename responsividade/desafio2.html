@@ -1,0 +1,35 @@
+<!-- 
+Crie uma página e use media query para mostrar todo o conteúdo em fonte Arial, quando estiver em tela de mobile,
+e em fonte Georgia com tamanho maior, quando estiver em tela de desktop. 
+-->
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio 2</title>
+
+    <style>
+
+        p {
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+        @media  screen and ( min-width:600px){
+            p{
+                font-size: 32px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            
+        }
+
+    </style>
+</head>
+<body>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat repudiandae praesentium velit eaque, nostrum iure aliquam architecto perferendis molestiae? Dolore enim ipsum veniam quidem sapiente alias. Nulla labore deleniti ab.</p>
+    
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, iure tempore nihil beatae corporis id quia rem molestiae porro, deleniti voluptatibus. Iste, accusamus! Officia eum corporis, enim blanditiis atque eius!</p>
+</body>
+</html>
