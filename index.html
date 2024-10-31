@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MadStore</title>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <link rel="icon" type="image/png" href="/img/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/img/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/img/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/img/favicon/site.webmanifest" />
+
+    <link rel="stylesheet" href="./src/styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i id="logo" class="fa-solid fa-crown"> MADSTORE</i>
+
+            <ul id="nav_list">
+
+                <li class="nav-item active">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#catalago">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sobre_nos">Sobre Nós</a>
+                </li>
+
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+                
+            
+            </button>
+
+        </nav>
+
+        <div id="mobile_menu">
+
+            <ul id="mobile_nav_list">
+
+                <li class="nav-item">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#catalago">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sobre">Sobre Nós</a>
+                </li>
+
+            </ul>
+
+           </div>
+    </header>
+    <main id="content">
+        <section id="home">
+
+            <div id="cta">
+                <h1 class="title">Renove seu estilo <span>Hoje!</span></h1>
+
+                <p class="description">
+                    Looks modernos, elegantes e confortáveis para todas as ocasiões. Descubra nossa seleção especial e sinta-se incrível todos os dias!
+                </p>
+
+                
+            <div id="cta_buttons">
+                <a href="#" class="btn-default">
+                    Ver Produtos</a>
+                <a href="tel:+555555555" id="phone_button">
+                    <button class="btn-default">
+                        <i class="fa-solid fa-phone"></i>
+                        (31) 91234-1234                  
+                    </button>
+                </a>
+                <a href=""></a>
+            </div>
+
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+            
+            </div>
+
+
+            <div id="img_container">
+             <figure><img src="src/assets/img1.jpg" alt=""></figure>
+             <figure><img src="src/assets/img2.jpg" alt=""></figure>
+             <figure><img src="src/assets/img3.jpg" alt=""></figure>
+             <figure><img src="src/assets/img4.jpg" alt=""></figure>
+             <figure><img src="src/assets/img5.jpg" alt=""></figure>
+             <figure><img src="src/assets/img6.jpg" alt=""></figure>
+             <figure><img src="src/assets/img7.jpg" alt=""></figure>
+             <figure><img src="src/assets/img8.jpg" alt=""></figure>
+             <figure><img src="src/assets/img9.jpg" alt=""></figure>
+             <figure><img src="src/assets/img10.jpg" alt=""></figure>
+             <figure><img src="src/assets/img11.jpg" alt=""></figure>
+             <figure><img src="src/assets/img12.jpg" alt=""></figure>
+            </div>
+
+        </section>
+        <section id="products">
+            <h2 class="section-title">Vitrine</h2>
+            <h3 class="section-subtitle">Destaques da Nossa Coleção para Você Brilhar</h3>
+
+            <div id="catalago">
+                <div class="item">
+                    <div class="item-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="./src/assets/default.png" alt="">
+
+                    <h3 class="item-title">Title</h3>
+
+                    <span class="item-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+
+                    <div class="item-price">
+                        <h4>R$50,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="./src/assets/default.png" alt="">
+
+                    <h3 class="item-title">Title</h3>
+
+                    <span class="item-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+
+                    <div class="item-price">
+                        <h4>R$50,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="item">
+                    <div class="item-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="./src/assets/default.png" alt="">
+
+                    <h3 class="item-title">Title</h3>
+
+                    <span class="item-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+
+                    <div class="item-price">
+                        <h4>R$50,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="item">
+                    <div class="item-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="./src/assets/default.png" alt="">
+
+                    <h3 class="item-title">Title</h3>
+
+                    <span class="item-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+
+                    <div class="item-price">
+                        <h4>R$50,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="item">
+                    <div class="item-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="./src/assets/default.png" alt="">
+
+                    <h3 class="item-title">Title</h3>
+
+                    <span class="item-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+
+                    <div class="item-price">
+                        <h4>R$50,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="item">
+                    <div class="item-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="./src/assets/default.png" alt="">
+
+                    <h3 class="item-title">Title</h3>
+
+                    <span class="item-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+
+                    <div class="item-price">
+                        <h4>R$50,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <section id="sobre_nos">
+           
+            <img  id="img_loja" src="./src/assets/loja.jpg" alt="">
+        
+            <div id="desc">
+                <h2 class="section-title">Sobre a MadStore</h2>
+                <h3 class="section-subtitle">Transformando Moda em Estilo Pessoal Desde 2018"</h3>
+                <p class="desc-txt">
+                    MadStore é uma loja de moda feminina localizada no bairro Santa Terezinha,
+                     na Rua [Nome da Rua], Nº [Número], em Belo Horizonte.
+                      Inspirada no estilo e na elegância da mulher contemporânea,
+                       oferecemos uma seleção especial de peças que unem qualidade,
+                        conforto e as últimas tendências. Com um atendimento exclusivo,
+                         estamos prontos para ajudar você a encontrar o look perfeito para qualquer ocasião.
+                        Venha nos visitar e descubra a moda feita para valorizar o seu estilo!
+                </p>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+
+       <img id="wave" src="./src/assets/wave.svg" alt="">
+
+       <div id="footer_items">
+
+            <span id="copyright">
+                &copy 2024 Andre Mendes
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+
+       </div>
+
+    </footer>
+
+    <script src="./src/javaScripts/script.js"></script>  
+</body>
+</html>
